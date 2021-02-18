@@ -10893,6 +10893,35 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.my-footer {
+  margin-top: 176px;
+  margin-bottom: 20px;
+}
+
+.my-footer p {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #40203B;
+  margin-bottom: 12px;
+}
+
+.my-footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.my-footer ul li {
+  display: inline;
+  margin-left: 12px;
+}
+
+.my-footer ul li img {
+  width: 28px;
+}
+
 .section-header .header-description {
   color: #40203B;
   margin-top: 208px;
@@ -10938,7 +10967,7 @@ body {
 }
 
 .section-nats-sub-header .my-sub-header-image {
-  background-image: url("../../images/sub_header.png");
+  background-image: url("../images/sub_header.png");
   height: 235px;
   background-size: 60vmax;
   background-position: center;
@@ -11043,7 +11072,7 @@ body {
 
 .section-nats .card .card-body {
   background-color: #F26586;
-  top: -50px;
+  margin-top: -50px;
   position: relative;
   z-index: 1;
   height: 254px;
