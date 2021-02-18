@@ -1,0 +1,5 @@
+style/*.scss
+style/components/*.scss
+style/pages/*.scss
+style/section/*.scss
+style/main.css.map
