@@ -43,7 +43,7 @@
                         </div>
                       </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Renungan</a>
+                      <a class="nav-link" href="renungan.html">Renungan</a>
                     </li>
                     <li class="nav-item">
                       <a class="btn btn-lg btn-nav" href="#">Chat With Bot</a>
@@ -59,7 +59,7 @@
                         <div class="header-description">
                             <h1>Jesus is The Only Way</h1>
                             <p>Joy Way (Jesus is The Only Way) adalah media berbagi renungan Tuhan dalam bentuk nats, pujian, khotbah dan konseling pribadi dengan keyakinan bahwa hadirat-Nya selalu hadir dalam kehidupan kita</p>
-                            <a href="#" class="btn btn-explore-more">Explore More</a>
+                            <a href="#section-watch" class="btn btn-explore-more">Explore More</a>
                         </div>
                     </div>
                     <div class="col-md">
@@ -79,7 +79,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-watch">
+        <section class="section-watch" id="section-watch">
           <div class="container">
             <h5>Watch</h5>
             <div class="row" style="margin-top: 22px;">
@@ -265,5 +265,17 @@
     </footer>
    <script src="vendor/jquery/jquery.min.js"></script>
    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script>
+    $(function() {
+      $('.btn-explore-more').on('click', function(e){
+          let tujuan = $(this).attr('href');
+          let elemenTujuan = $(tujuan);
+          $('html,body').animate({
+              scrollTop: elemenTujuan.offset().top - 65
+          }, 1200);
+          e.preventDefault();
+      })
+    });
+   </script>
   </body>
 </html>
