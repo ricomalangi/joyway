@@ -10908,7 +10908,7 @@ body {
 }
 
 .my-footer {
-  margin-top: 176px;
+  margin-top: 100px;
   margin-bottom: 20px;
 }
 
@@ -11325,5 +11325,48 @@ body {
 
 .page-renungan .renungan-content .card .card-body {
   padding: 28px;
+}
+
+.page-watch .watch-content {
+  margin-top: 90px;
+}
+
+.page-watch .watch-content .card {
+  width: 336px;
+  border: none;
+  margin-bottom: 90px;
+}
+
+.page-watch .watch-content .card .watch-embed {
+  height: 230px;
+  border-radius: 8px;
+}
+
+.page-watch .watch-content .card .card-body {
+  padding: 0;
+  padding-top: 12px;
+}
+
+.page-watch .watch-content .card .card-body h5 {
+  color: #40203B;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.page-watch .watch-content .card .card-body ul {
+  list-style: none;
+  padding: 0;
+}
+
+.page-watch .watch-content .card .card-body ul li {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: #40203B;
+  font-size: 15px;
+}
+
+.page-watch .watch-content .card .card-body ul li img {
+  width: 30px;
+  margin-right: 14px;
 }
 /*# sourceMappingURL=main.css.map */
