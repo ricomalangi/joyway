@@ -10942,24 +10942,39 @@ body {
   width: 28px;
 }
 
-.section-header .header-description {
+@media (max-width: 767.98px) {
+  .page-home h5 {
+    text-align: center;
+  }
+  .page-home .card h5 {
+    text-align: left;
+  }
+}
+
+.page-home .section-header .header-description {
   color: #40203B;
   margin-top: 208px;
 }
 
-.section-header .header-description h1 {
+@media (max-width: 767.98px) {
+  .page-home .section-header .header-description {
+    margin-top: 26px;
+  }
+}
+
+.page-home .section-header .header-description h1 {
   font-weight: 600;
   font-size: 48px;
 }
 
-.section-header .header-description p {
+.page-home .section-header .header-description p {
   margin-top: 26px;
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
 }
 
-.section-header .header-description .btn-explore-more {
+.page-home .section-header .header-description .btn-explore-more {
   padding-top: 9px;
   width: 141px;
   height: 46px;
@@ -10972,21 +10987,21 @@ body {
           box-shadow: 2px 7px 16px -1px rgba(0, 0, 0, 0.26);
 }
 
-.section-header .header-image {
+.page-home .section-header .header-image {
   margin-top: 72px;
   margin-left: 96px;
 }
 
-.section-header .header-image img {
+.page-home .section-header .header-image img {
   width: 434px;
   height: 491px;
 }
 
-.section-nats-sub-header {
+.page-home .section-nats-sub-header {
   margin-top: 100px;
 }
 
-.section-nats-sub-header .my-sub-header-image {
+.page-home .section-nats-sub-header .my-sub-header-image {
   background-image: url("../images/sub_header.png");
   height: 235px;
   background-size: 60vmax;
@@ -10996,40 +11011,64 @@ body {
   position: relative;
 }
 
-.section-nats-sub-header .my-sub-header-text {
+@media (max-width: 767.98px) {
+  .page-home .section-nats-sub-header .my-sub-header-image {
+    background-image: none;
+  }
+}
+
+.page-home .section-nats-sub-header .my-sub-header-text {
   top: 26px;
   left: 25%;
   color: #F9F2BB;
   position: absolute;
   width: 648px;
+  background-color: #5D2F56;
 }
 
-.section-nats-sub-header .my-sub-header-text h4 {
+@media (max-width: 767.98px) {
+  .page-home .section-nats-sub-header .my-sub-header-text {
+    top: 0;
+    left: 0;
+    width: auto;
+    padding: 28px;
+  }
+}
+
+.page-home .section-nats-sub-header .my-sub-header-text h4 {
   font-weight: 600;
   font-size: 24px;
 }
 
-.section-nats-sub-header .my-sub-header-text p {
+.page-home .section-nats-sub-header .my-sub-header-text p {
   font-size: 15px;
   line-height: 162%;
 }
 
-.section-watch {
+.page-home .section-watch {
   margin-top: 74px;
 }
 
-.section-watch h5 {
+.page-home .section-watch h5 {
   font-weight: 600;
   font-size: 24px;
   color: #40203B;
 }
 
-.section-watch .card {
+.page-home .section-watch .card {
   border-radius: 24px;
   border: none;
 }
 
-.section-watch .card .card-header {
+@media (max-width: 767.98px) {
+  .page-home .section-watch .card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
+  }
+}
+
+.page-home .section-watch .card .card-header {
   border-radius: 24px;
   z-index: 2;
   background-color: #5D2F56;
@@ -11037,18 +11076,18 @@ body {
           box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.25);
 }
 
-.section-watch .card .card-header p {
+.page-home .section-watch .card .card-header p {
   font-size: 15px;
   color: #F9F2BB;
   margin-bottom: 4px;
 }
 
-.section-watch .card .card-header h5 {
+.page-home .section-watch .card .card-header h5 {
   font-weight: 500;
   color: #F9F2BB;
 }
 
-.section-watch .card .card-img {
+.page-home .section-watch .card .card-img {
   margin-top: -50px;
   z-index: 1;
   height: 254px;
@@ -11056,22 +11095,30 @@ body {
   border-radius: 0px 0px 24px 24px;
 }
 
-.section-nats {
+.page-home .section-nats {
   margin-top: 128px;
 }
 
-.section-nats h5 {
+.page-home .section-nats h5 {
   font-weight: 600;
   font-size: 24px;
   color: #40203B;
 }
 
-.section-nats .card {
+.page-home .section-nats .card {
   border-radius: 24px;
   border: none;
 }
 
-.section-nats .card .card-header {
+@media (max-width: 767.98px) {
+  .page-home .section-nats .card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
+  }
+}
+
+.page-home .section-nats .card .card-header {
   border-radius: 24px;
   z-index: 2;
   background-color: #F26586;
@@ -11079,18 +11126,18 @@ body {
           box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.25);
 }
 
-.section-nats .card .card-header p {
+.page-home .section-nats .card .card-header p {
   font-size: 15px;
   color: #F9F2BB;
   margin-bottom: 4px;
 }
 
-.section-nats .card .card-header h5 {
+.page-home .section-nats .card .card-header h5 {
   font-weight: 500;
   color: #F9F2BB;
 }
 
-.section-nats .card .card-body {
+.page-home .section-nats .card .card-body {
   background-color: #F26586;
   margin-top: -50px;
   position: relative;
@@ -11099,7 +11146,7 @@ body {
   border-radius: 0px 0px 24px 24px;
 }
 
-.section-nats .card .card-body .card-img {
+.page-home .section-nats .card .card-body .card-img {
   position: absolute;
   width: 60%;
   bottom: 0;
@@ -11107,23 +11154,31 @@ body {
   background-repeat: no-repeat;
 }
 
-.section-renungan {
+.page-home .section-renungan {
   margin-top: 128px;
 }
 
-.section-renungan h5 {
+.page-home .section-renungan h5 {
   font-weight: 600;
   font-size: 24px;
   color: #40203B;
 }
 
-.section-renungan .card {
+.page-home .section-renungan .card {
   border-radius: 24px;
   border: none;
   margin-bottom: 26px;
 }
 
-.section-renungan .card .card-header {
+@media (max-width: 767.98px) {
+  .page-home .section-renungan .card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
+  }
+}
+
+.page-home .section-renungan .card .card-header {
   border-radius: 24px;
   z-index: 2;
   background-color: #B87171;
@@ -11132,15 +11187,16 @@ body {
   height: 130px;
 }
 
-.section-renungan .card .card-header p {
+.page-home .section-renungan .card .card-header p {
   font-size: 15px;
   color: #F9F2BB;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
-.section-renungan .card .card-header h5 {
+.page-home .section-renungan .card .card-header h5 {
   font-weight: 500;
   color: #F9F2BB;
+  font-size: 24px;
   width: 206px;
 }
 
