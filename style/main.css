@@ -10942,6 +10942,10 @@ body {
   width: 28px;
 }
 
+.page-home a:hover {
+  text-decoration: none;
+}
+
 @media (max-width: 767.98px) {
   .page-home h5 {
     text-align: center;
